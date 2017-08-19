@@ -27,6 +27,7 @@
 		ECCC2C801F44831000945836 /* 9012.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 9012.cpp; sourceTree = "<group>"; };
 		ECCDC11F1F481120003A03D6 /* 1158.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1158.cpp; sourceTree = "<group>"; };
 		ECCDC1211F482BA1003A03D6 /* 1463.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1463.cpp; sourceTree = "<group>"; };
+		ECCDC1231F48383F003A03D6 /* 11726.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 11726.cpp; sourceTree = "<group>"; };
 		ECD140B01F2F2CC900EAAE71 /* 11816.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 11816.cpp; sourceTree = "<group>"; };
 		ECD140B41F2F2EAA00EAAE71 /* 10951.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 10951.cpp; sourceTree = "<group>"; };
 		ECD140B61F2F34C500EAAE71 /* 11718.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 11718.cpp; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 				ECCBC79D1F45C27F005B8061 /* 1406.cpp */,
 				ECCDC11F1F481120003A03D6 /* 1158.cpp */,
 				ECCDC1211F482BA1003A03D6 /* 1463.cpp */,
+				ECCDC1231F48383F003A03D6 /* 11726.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
