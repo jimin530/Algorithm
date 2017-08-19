@@ -39,8 +39,8 @@ int main(void) {
     while(num--) {
         char order;
         
-        // scanf("%c", &order);
-        cin >> order;
+        scanf(" %c", &order);
+        //cin >> order;
         
         if (order == 'L') {
             if(!left.empty()) {
@@ -61,8 +61,8 @@ int main(void) {
         }
         else if (order == 'P') {
             char add_value;
-            // scanf("%c", &add_value);
-            cin >> add_value;
+            scanf(" %c", &add_value);
+            //cin >> add_value;
             left.push(add_value);
         }
     }
