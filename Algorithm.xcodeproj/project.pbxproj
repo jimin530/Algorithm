@@ -21,6 +21,7 @@
 /* Begin PBXFileReference section */
 		EC06E07B1F347BC40073620B /* 10870.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 10870.cpp; sourceTree = "<group>"; };
 		EC0A978E1F2F27A900324FA8 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB0C51B1F4DD4E10053548D /* 1912.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1912.cpp; sourceTree = "<group>"; };
 		ECB56E611F37129A0020D0C8 /* sample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample.cpp; sourceTree = "<group>"; };
 		ECCBC79B1F45BB8E005B8061 /* 10799.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 10799.cpp; sourceTree = "<group>"; };
 		ECCBC79D1F45C27F005B8061 /* 1406.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1406.cpp; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 				ECF7C6561F4D5521004ACB2A /* 11055.cpp */,
 				ECF7C6581F4D58CC004ACB2A /* 11722.cpp */,
 				ECF7C65A1F4D5BDB004ACB2A /* 11054.cpp */,
+				ECB0C51B1F4DD4E10053548D /* 1912.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
