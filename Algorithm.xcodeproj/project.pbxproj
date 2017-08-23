@@ -44,6 +44,7 @@
 		ECF653191F4B2F27005177B3 /* 9465.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 9465.cpp; sourceTree = "<group>"; };
 		ECF7C6541F4D4A4D004ACB2A /* 11053.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 11053.cpp; sourceTree = "<group>"; };
 		ECF7C6561F4D5521004ACB2A /* 11055.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 11055.cpp; sourceTree = "<group>"; };
+		ECF7C6581F4D58CC004ACB2A /* 11722.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 11722.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 				ECE4F4511F4C002700487EE0 /* 2156.cpp */,
 				ECF7C6541F4D4A4D004ACB2A /* 11053.cpp */,
 				ECF7C6561F4D5521004ACB2A /* 11055.cpp */,
+				ECF7C6581F4D58CC004ACB2A /* 11722.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
