@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECD68BB41F53F76A00878128 /* 2011.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECD68BB31F53F76A00878128 /* 2011.cpp */; };
+		EC732C471F58074F0076083D /* 10825.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC732C461F58074F0076083D /* 10825.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 		EC06E07B1F347BC40073620B /* 10870.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 10870.cpp; sourceTree = "<group>"; };
 		EC0A978E1F2F27A900324FA8 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2CE8AD1F4E886F00B55587 /* 1699.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1699.cpp; sourceTree = "<group>"; };
+		EC732C461F58074F0076083D /* 10825.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 10825.cpp; sourceTree = "<group>"; };
 		ECB0C51B1F4DD4E10053548D /* 1912.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1912.cpp; sourceTree = "<group>"; };
 		ECB0C51D1F4DD6260053548D /* 2579.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 2579.cpp; sourceTree = "<group>"; };
 		ECB56E611F37129A0020D0C8 /* sample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample.cpp; sourceTree = "<group>"; };
@@ -122,6 +123,7 @@
 				ECD68BAF1F53E34700878128 /* 9461.cpp */,
 				ECD68BB11F53F03900878128 /* 2225.cpp */,
 				ECD68BB31F53F76A00878128 /* 2011.cpp */,
+				EC732C461F58074F0076083D /* 10825.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -183,7 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD68BB41F53F76A00878128 /* 2011.cpp in Sources */,
+				EC732C471F58074F0076083D /* 10825.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

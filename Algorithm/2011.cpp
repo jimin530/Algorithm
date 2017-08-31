@@ -10,9 +10,8 @@
 //
 
 #include <stdio.h>
-#include <string>
-using namespace std;
-
+#include <stdlib.h>
+#include <string.h>
 int main(void){
     
     char secret[5001];
@@ -20,10 +19,9 @@ int main(void){
     int d[5010] = {};
     d[0] = 1;
     d[1] = 1;
-    string s;
+    
     scanf("%s", secret);
-    s = secret;
-    secretSize = (int)s.size();
+    secretSize = (int)strlen(secret);
     
     for (int i = 2; i <= secretSize; i++)
     {
