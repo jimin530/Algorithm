@@ -9,26 +9,31 @@
 //  https://www.acmicpc.net/problem/9012
 //
 
-#include <stdio.h>
-#include <stack>
+#include <cstdio>
+#include <iostream>
+#include <algorithm>
+#include <cstring>
 #include <stdlib.h>
+#include <stack>
+using namespace std;
 
-int main(void) {
-    
+int main() {
+    //std::ios_base::sync_with_stdio(false);
     int n = 0;
     
     scanf("%d", &n);
+    std::string s;
+    getline(std::cin, s);
     
     while(n--) {
         std::stack<char> vps;
-        char value[51];
+        std::string s;
         bool isVps = false;
-        scanf("%s", value);
-        int length = (int)strlen(value);
+        getline(std::cin, s);
         
-        for(int i = 0 ; i < length ; i++) {
-            if (value[i] == '(') {
-                vps.push(value[i]);
+        for(int i = 0 ; i < s.size() ; i++) {
+            if (s[i] == '(') {
+                vps.push(s[i]);
                 isVps = false;
             }
             else {
