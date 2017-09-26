@@ -10,17 +10,21 @@
 #include <iostream>
 #include <algorithm>
 #include <cstring>
-
+#include <vector>
 using namespace std;
 
+std::vector<pair<int, int>> a[10];
 int main() {
-
-    string s1;
-    char c[] = "c string";
-    string s2= c;
-    //cin >> s1 >> s2;
-    //cout << s1 << ' ' << s2;
-    printf("%d", (int)s2.size());
+    int n, m;
+    scanf("%d %d",&n,&m);
     
-    return 0;
+    for (int i=0; i<m; i++) {
+        int u,v,w;
+        scanf("%d %d %d",&u,&v, &w);
+        a[u].push_back(make_pair(v, w));
+        a[v].push_back(make_pair(u, w));
+    }
+    
+    printf("%d", a[3][1].first);
+    printf("%d", a[3][1].second);
 }
