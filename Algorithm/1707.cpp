@@ -8,6 +8,7 @@
 //  이분 그래프
 //  https://www.acmicpc.net/problem/1707
 //
+// 이해못함
 
 #include <cstdio>
 #include <vector>
