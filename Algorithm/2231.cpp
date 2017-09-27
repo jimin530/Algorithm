@@ -5,7 +5,7 @@
 //  Created by Jimin Kim on 2017. 9. 27..
 //  Copyright © 2017년 Jimin Kim. All rights reserved.
 //  순열 사이클
-//  https://www.acmicpc.net/problem/10451
+//  https://www.acmicpc.net/problem/2331
 //
 
 #include <iostream>
