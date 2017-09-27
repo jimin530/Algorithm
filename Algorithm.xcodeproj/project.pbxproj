@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC7EE01B1F7A7C0800D2BB41 /* 1707.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC7EE01A1F7A7C0800D2BB41 /* 1707.cpp */; };
+		EC5868AC1F7B626E00EDD316 /* 10451.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC5868AB1F7B626E00EDD316 /* 10451.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,7 @@
 		EC0D4C1A1F6FC4B4004101A2 /* 9012_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 9012_2.cpp; sourceTree = "<group>"; };
 		EC11B0401F78E41800251C6F /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		EC2CE8AD1F4E886F00B55587 /* 1699.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1699.cpp; sourceTree = "<group>"; };
+		EC5868AB1F7B626E00EDD316 /* 10451.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10451.cpp; sourceTree = "<group>"; };
 		EC732C461F58074F0076083D /* 10825.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 10825.cpp; sourceTree = "<group>"; };
 		EC732C481F58117E0076083D /* 11652.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 11652.cpp; sourceTree = "<group>"; };
 		EC7EE00E1F7A3F3100D2BB41 /* dfs_arr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dfs_arr.cpp; sourceTree = "<group>"; };
@@ -144,6 +145,7 @@
 				ECD622161F5ABF6300B1D909 /* 2146.cpp */,
 				EC7EE0181F7A75C200D2BB41 /* 11724.cpp */,
 				EC7EE01A1F7A7C0800D2BB41 /* 1707.cpp */,
+				EC5868AB1F7B626E00EDD316 /* 10451.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -225,7 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC7EE01B1F7A7C0800D2BB41 /* 1707.cpp in Sources */,
+				EC5868AC1F7B626E00EDD316 /* 10451.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
