@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		EC75AC981F80D89500994265 /* 7576.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC75AC971F80D89500994265 /* 7576.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		EC0A978C1F2F27A800324FA8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -37,6 +33,7 @@
 		EC732C481F58117E0076083D /* 11652.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 11652.cpp; sourceTree = "<group>"; };
 		EC75AC951F80C58E00994265 /* 2178_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2178_2.cpp; sourceTree = "<group>"; };
 		EC75AC971F80D89500994265 /* 7576.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 7576.cpp; sourceTree = "<group>"; };
+		EC75AC991F81161000994265 /* 2146_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2146_2.cpp; sourceTree = "<group>"; };
 		EC7EE00E1F7A3F3100D2BB41 /* dfs_arr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dfs_arr.cpp; sourceTree = "<group>"; };
 		EC7EE0101F7A403000D2BB41 /* dfs_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dfs_list.cpp; sourceTree = "<group>"; };
 		EC7EE0121F7A449200D2BB41 /* bfs_arr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bfs_arr.cpp; sourceTree = "<group>"; };
@@ -166,6 +163,7 @@
 				EC5868B11F7BC96800EDD316 /* 2667_2.cpp */,
 				EC3CAB481F7EAACC00F6BA68 /* 4963_2.cpp */,
 				EC75AC951F80C58E00994265 /* 2178_2.cpp */,
+				EC75AC991F81161000994265 /* 2146_2.cpp */,
 			);
 			name = Onemore;
 			sourceTree = "<group>";
@@ -239,7 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC75AC981F80D89500994265 /* 7576.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
