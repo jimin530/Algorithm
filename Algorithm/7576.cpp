@@ -15,7 +15,7 @@
 using namespace std;
 
 int check[1001][1001];
-int a[1001][1001] = {-1,};
+int a[1001][1001];
 int n, m;
 int dx[] = {0,0,1,-1};
 int dy[] = {1,-1,0,0};
@@ -28,7 +28,7 @@ int main() {
     scanf("%d %d", &n, &m);
     for(int i = 0 ; i < n ; i++) {
         for(int j = 0 ; j < m ; j++) {
-            scanf("%1d", &a[i][j]);
+            scanf("%d", &a[i][j]);
             if(a[i][j] != -1) {
                 totalCnt++; // 총 토마토 개수
                 
@@ -41,7 +41,7 @@ int main() {
                     // 몇 번째 날 익었다고 체크
                     check[i][j] = 1;
                     // 현재 며칠째인가
-                    day = check[i][j];
+                    day = check[i][j] - 1;
                 }
             }
         }
@@ -61,13 +61,13 @@ int main() {
                     // 익은 토마토 개수
                     cnt++;
                     check[nx][ny] = check[x][y] + 1;
-                    day = check[nx][ny];
+                    day = check[nx][ny] - 1;
                 }
             }
         }
     }
     if(totalCnt == cnt) {
-        printf("%d", day - 1);
+        printf("%d", day);
     } else {
         printf("%d", -1);
     }
