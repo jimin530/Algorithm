@@ -14,7 +14,7 @@
 //#include <iostream>
 //using namespace std;
 //
-//char a[50][2];
+//char a[100][2];
 //
 //void preorder(char root) {
 //    if(root == '.') return;
