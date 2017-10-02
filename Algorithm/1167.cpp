@@ -16,13 +16,6 @@
 #include <queue>
 using namespace std;
 
-struct Edge {
-    int to;
-    int cost;
-    Edge(int to, int cost) : to(to), cost(cost) {
-    }
-};
-
 vector<vector<pair<int, int>>> a(10001);
 int dis[10001];
 bool check[10001];
@@ -67,7 +60,7 @@ int main() {
             a[node].push_back(make_pair(u, dis));
         }
     }
-    
+    // 일단 1을 시작으로 잡고 가장 긴 거리를 구함
     bfs(1);
     int start = 1;
     for (int i=2; i<=n; i++) {
@@ -75,6 +68,8 @@ int main() {
             start = i;
         }
     }
+    
+    // 가장 긴 거리였던 정점을 시작으로 다시 가장 긴 거리를 구함 -> 지름
     bfs(start);
     int ans = dis[1];
     for (int i=2; i<=n; i++) {
