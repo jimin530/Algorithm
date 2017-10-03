@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ECBC04C41F8376EA00F6CBC4 /* 34949.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECBC04C31F8376EA00F6CBC4 /* 34949.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		EC0A978C1F2F27A800324FA8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -46,6 +50,7 @@
 		ECB78FDD1F82009000E8D317 /* 1991.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1991.cpp; sourceTree = "<group>"; };
 		ECB78FDF1F8207CB00E8D317 /* 11725.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11725.cpp; sourceTree = "<group>"; };
 		ECB78FE21F8224CE00E8D317 /* 1167.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1167.cpp; sourceTree = "<group>"; };
+		ECBC04C31F8376EA00F6CBC4 /* 34949.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 34949.cpp; sourceTree = "<group>"; };
 		ECCBC79B1F45BB8E005B8061 /* 10799.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 10799.cpp; sourceTree = "<group>"; };
 		ECCBC79D1F45C27F005B8061 /* 1406.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1406.cpp; sourceTree = "<group>"; };
 		ECCC2C801F44831000945836 /* 9012.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 9012.cpp; sourceTree = "<group>"; };
@@ -109,6 +114,7 @@
 		EC0A97901F2F27A900324FA8 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				ECBC04C21F8376AA00F6CBC4 /* Goorm */,
 				EC7EE00D1F7A3F1A00D2BB41 /* Sample */,
 				ECB78FE11F82218500E8D317 /* Acmicpc */,
 			);
@@ -194,6 +200,14 @@
 			name = Acmicpc;
 			sourceTree = "<group>";
 		};
+		ECBC04C21F8376AA00F6CBC4 /* Goorm */ = {
+			isa = PBXGroup;
+			children = (
+				ECBC04C31F8376EA00F6CBC4 /* 34949.cpp */,
+			);
+			path = Goorm;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -251,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBC04C41F8376EA00F6CBC4 /* 34949.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
