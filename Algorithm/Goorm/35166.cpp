@@ -1,13 +1,13 @@
 //
-//  35170.cpp
+//  35166.cpp
 //  Algorithm
 //
 //  Created by Jimin Kim on 2017. 10. 6..
 //  Copyright © 2017년 Jimin Kim. All rights reserved.
 //
-//  사천성 시뮬레이터 (1/2)
-/*  https://edu.goorm.io/learn/exam/6245/%EC%99%84%EB%A3%8C-2%EC%B0%A8-2015%EB%85%84-%EA%B8%B0%EC%B6%9C-%EB%AC%B8%EC%A0%9C-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-9%EC%9B%94-19%EC%9D%BC/quiz/35170/%EC%82%AC%EC%B2%9C%EC%84%B1-%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0-1-2
-*/
+//  사천성 시뮬레이터 (2/2)
+/*  https://edu.goorm.io/learn/exam/6245/%EC%99%84%EB%A3%8C-2%EC%B0%A8-2015%EB%85%84-%EA%B8%B0%EC%B6%9C-%EB%AC%B8%EC%A0%9C-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-9%EC%9B%94-19%EC%9D%BC/quiz/35166/%EC%82%AC%EC%B2%9C%EC%84%B1-%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0-2-2
+ */
 //
 
 #include <cstdio>
@@ -55,6 +55,8 @@ void bfs(int x1, int y1, int x2, int y2) {
                         
                         if(nx == x2 && ny == y2) {
                             isRoute = true;
+                            a[x1][y1] = 0;
+                            a[x2][y2] = 0;
                             return;
                         }
                     }
@@ -65,6 +67,8 @@ void bfs(int x1, int y1, int x2, int y2) {
                         
                         if(nx == x2 && ny == y2) {
                             isRoute = true;
+                            a[x1][y1] = 0;
+                            a[x2][y2] = 0;
                             return;
                         }
                     }
