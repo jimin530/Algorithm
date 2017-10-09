@@ -83,29 +83,10 @@ void bfs(int x1, int y1, int x2, int y2) {
 }
 
 int main() {
-    for(int i = 0 ; i < 10 ; i++) {
-        for(int j = 0 ; j < 10 ; j++) {
-            scanf("%d", &a[i][j]);
-        }
-    }
     
-    int n = 0;
-    scanf("%d", &n);
-    
-    while(n--) {
-        int x1, y1, x2, y2;
-        scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
-        if(a[x1-1][y1-1] == a[x2-1][y2-1]) {
-            bfs(x1-1, y1-1, x2-1, y2-1);
-        }
-        else {
-            printf("NO\n");
-        }
-        
-        //        for(int i=0; i<10; i++){
-        //            memset(check[i], 0, sizeof(int)*10); //모든 값 0으로 초기화
-        //        }
-    }
+    string s = "abc def";
+    char c = s[2];
+    cout << c;
     
     return 0;
 }
