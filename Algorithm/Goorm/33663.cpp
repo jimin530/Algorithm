@@ -16,7 +16,6 @@
 #include <vector>
 #include <string.h>
 #include <queue>
-#include <tuple>
 
 using namespace std;
 
@@ -29,15 +28,21 @@ int r, c;
 int cnt = 1;
 
 void bfs() {
-    queue< tuple<int, int, int> > q;
+    //queue< tuple<int, int, int> > q;
+    queue< pair< pair<int, int>, int > > q;
     check[0][0] = true;
-    q.push(make_tuple(0, 0, 0));
+    //q.push(make_tuple(0, 0, 0));
+    q.push( make_pair(make_pair(0, 0), 0) );
     new_map[0][0] = cnt++;
     
     while(!q.empty()) {
-        int x = get<0>(q.front());
-        int y = get<1>(q.front());
-        int dir = get<2>(q.front());
+//        int x = get<0>(q.front());
+//        int y = get<1>(q.front());
+//        int dir = get<2>(q.front());
+        int x = q.front().first.first;
+        int y = q.front().first.second;
+        int dir = q.front().second;
+        
         q.pop();
         
         for(int k = dir ; k < (dir + 4) ; k++) {
@@ -46,7 +51,8 @@ void bfs() {
             
             if(0 <= nx && nx < r && 0 <= ny && ny < c && check[nx][ny] == false) {
                 check[nx][ny] = true;
-                q.push(make_tuple(nx, ny, k%4));
+                // q.push(make_tuple(nx, ny, k%4));
+                q.push( make_pair(make_pair(nx, ny), k%4) );
                 new_map[nx][ny] = cnt++;
                 
                 break;
