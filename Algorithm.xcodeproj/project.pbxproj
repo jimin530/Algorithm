@@ -45,6 +45,7 @@
 		EC9696FA1F8C706600214DCC /* 33678.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 33678.cpp; sourceTree = "<group>"; };
 		EC9696FC1F8C7BBC00214DCC /* 33678_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 33678_2.cpp; sourceTree = "<group>"; };
 		EC9696FE1F8C98E700214DCC /* 33676.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 33676.cpp; sourceTree = "<group>"; };
+		EC9697001F8CA56600214DCC /* 35246.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 35246.cpp; sourceTree = "<group>"; };
 		EC99A5511F87C65A00E0757A /* 35166.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 35166.cpp; sourceTree = "<group>"; };
 		ECA2EC001F8506D800801918 /* 35157.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 35157.cpp; sourceTree = "<group>"; };
 		ECB0C51B1F4DD4E10053548D /* 1912.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1912.cpp; sourceTree = "<group>"; };
@@ -224,6 +225,7 @@
 				EC9696FA1F8C706600214DCC /* 33678.cpp */,
 				EC9696FC1F8C7BBC00214DCC /* 33678_2.cpp */,
 				EC9696FE1F8C98E700214DCC /* 33676.cpp */,
+				EC9697001F8CA56600214DCC /* 35246.cpp */,
 			);
 			path = Goorm;
 			sourceTree = "<group>";
