@@ -9,7 +9,7 @@
 /*  https://edu.goorm.io/learn/exam/6404/%EC%83%81%EC%8B%9C-%EC%9D%91%EC%8B%9C-1%EC%B0%A8-%EB%AA%A8%EC%9D%98-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8/quiz/33663/%EA%B2%BD%EB%A1%9C-%EC%B6%94%EC%A0%95%ED%95%98%EA%B8%B0
  */
 //
-/////////////////////////////////////////bfs array
+/////////////////////////////////////////bfs array, dfs array
 #include <cstdio>
 #include <algorithm>
 #include <iostream>
@@ -26,6 +26,20 @@ bool check[101][101];
 int new_map[101][101];
 int r, c;
 int cnt = 1;
+
+void dfs(int x, int y, int dir) {
+    check[x][y] = true;
+    new_map[x][y] = cnt++;
+    
+    for(int k = dir ; k < (dir + 4) ; k++) {
+        int nx = x + dx[k];
+        int ny = y + dy[k];
+        
+        if(0 <= nx && nx < r && 0 <= ny && ny < c && check[nx][ny] == false) {
+            dfs(nx, ny, k%4);
+        }
+    }
+}
 
 void bfs() {
     //queue< tuple<int, int, int> > q;
@@ -75,7 +89,8 @@ int main() {
             }
         }
         
-        bfs();
+        //bfs();
+        dfs(0, 0, 0);
         
         printf("Case #%d\n", z);
         for(int i = 0 ; i < r ; i ++) {
